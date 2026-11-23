@@ -6,30 +6,58 @@
 
 ## Чем занимаюсь
 
-- **Сборка и CI для 1С** — docker-образы платформы и OneScript; пайплайн описывается кодом, а не YAML
-- **Анализ кода** — валидатор конфигураций (метаданные и формы), диагностики для BSL Language Server
-- **MCP и агенты** — конвертация метаданных в markdown, Docker Compose для MCP-сервисов, 1С-контекст для EDT
-- **Знание как код** — OpenAPI-спецификации систем маркировки с примерами на 1С, личная вики на Obsidian под git
+- **1С — сборка, контроль качества, CI** — docker-образы платформы, валидатор конфигураций, плагины для EDT
+- **Агенты с контекстом 1С и личной вики** — плагины для DeepSeek Harness, каркас вики под LLM
+- **Minecraft и стриминг** — LLM-агенты, MCP-сервер под Forge, стриминг-студия
 
 ## Проекты
 
-| Проект | Что решает | Стек |
-|---|---|---|
-| [onec-images](https://github.com/pravets/onec-images) | Docker-образы 1С:Предприятие для сборки и CI | Shell |
-| [onec-cfg2md](https://github.com/pravets/onec-cfg2md) | Метаданные конфигурации (CFG и EDT) → markdown для MCP | Go |
-| [compose4mcp](https://github.com/pravets/compose4mcp) | Готовые Docker Compose для MCP-серверов вокруг 1С | YAML |
-| [oscript-images](https://github.com/pravets/oscript-images) | Образы движка OneScript и утилит на нём | Shell |
-| [crpt-openapi](https://github.com/pravets/crpt-openapi) | OpenAPI «Честного знака»: True API и ЭДО Лайт | YAML |
-| [dsh-edt-projects](https://github.com/pravets/dsh-edt-projects) | 1С-контекст для агентов через EDT | JavaScript |
-| [checkushka](https://github.com/pravets/checkushka) | Валидатор конфигураций: метаданные, формы | Java |
-| [ai-wiki-template](https://github.com/pravets/ai-wiki-template) | Каркас личной вики под LLM-агентов | Python |
+### 1С: сборка, проверка, CI
+
+| Проект | Что решает |
+|---|---|
+| [onec-images](https://github.com/pravets/onec-images) | Docker-образы платформы 1С для сборки и CI |
+| [oscript-images](https://github.com/pravets/oscript-images) | Образы движка OneScript и утилит на нём |
+| [checkushka](https://github.com/pravets/checkushka) | Валидатор конфигураций: метаданные, формы |
+| [edt-editing](https://github.com/pravets/edt-editing) | Плагин для EDT: запрет редактирования объектов по правилам |
+
+### 1С для агентов
+
+| Проект | Что решает |
+|---|---|
+| [dsh-edt-projects](https://github.com/pravets/dsh-edt-projects) | Плагин DeepSeek Harness: агент правит конфигурацию инструментами EDT |
+
+### Маркировка
+
+| Проект | Что решает |
+|---|---|
+| [crpt-openapi](https://github.com/pravets/crpt-openapi) | OpenAPI «Честного знака»: True API и ЭДО Лайт |
+| [datamark.by-openapi](https://github.com/pravets/datamark.by-openapi) | OpenAPI «Электронного знака» (Беларусь) |
+
+### Знание как код
+
+| Проект | Что решает |
+|---|---|
+| [ai-wiki-template](https://github.com/pravets/ai-wiki-template) | Каркас личной вики под LLM-агентов |
+| [dsh-ai-wiki](https://github.com/pravets/dsh-ai-wiki) | Плагин DeepSeek Harness: BM25-чтение вики |
+
+### Игры и стриминг
+
+| Проект | Что решает |
+|---|---|
+| [Vasyan](https://github.com/pravets/Vasyan) | Мод Minecraft: автономные LLM-агенты |
+| [minecraft-java-forge-mcp-server](https://github.com/pravets/minecraft-java-forge-mcp-server) | MCP-сервер внутри Minecraft как Forge-мод |
+| [streamwebrom](https://github.com/pravets/streamwebrom) | Стриминг-студия в одном бинаре: гости по ссылке, мультистрим RTMP/SRT |
+| [wow-voiceover](https://github.com/pravets/wow-voiceover) | Русская озвучка квестов и госсипов WoW |
 
 ## Вклад в чужие проекты
 
-- [1c-syntax/bsl-language-server](https://github.com/1c-syntax/bsl-language-server) — диагностики BSL
-- [1c-syntax/mdclasses](https://github.com/1c-syntax/mdclasses) — чтение вариантов отчёта в схемах компоновки данных
-- [BlizD/Tasks](https://github.com/BlizD/Tasks) — предпросмотр markdown в карточке задачи, юнит-тесты
-- [autumn-library/pipeliner](https://github.com/autumn-library/pipeliner) — генерация GitLab CI: артефакты, правила, параллельность, окружения, релизы
+| Проект | Что внёс |
+|---|---|
+| [autumn-library/pipeliner](https://github.com/autumn-library/pipeliner) | 25 смерженных PR: артефакты, кэш, rules, environments, releases, parallel/matrix, GitLab Pages — CI/CD на OneScript |
+| [1c-syntax/bsl-language-server](https://github.com/1c-syntax/bsl-language-server) | Диагностики `CurrentRowAccess`, `SuspiciousChangeAndValidate`, `InsertionWithoutChangeAndValidate` |
+| [1c-syntax/mdclasses](https://github.com/1c-syntax/mdclasses) | Варианты отчёта в схемах компоновки данных |
+| [BlizD/Tasks](https://github.com/BlizD/Tasks) | Предпросмотр markdown в карточке задачи, юнит-тесты |
 
 ## Где пишу
 
