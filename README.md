@@ -59,11 +59,11 @@
 | [1c-syntax/mdclasses](https://github.com/1c-syntax/mdclasses) | Варианты отчёта в схемах компоновки данных |
 | [BlizD/Tasks](https://github.com/BlizD/Tasks) | Предпросмотр markdown в карточке задачи, юнит-тесты |
 
-## Где пишу
+## Контакты
 
 - Telegram — [@pravets_IT](https://t.me/+GKGRmAwghxllYzIy)
-- Инфостарт — [статьи](https://infostart.ru/1c/articles/2740983/)
 - Почта — [i@pravets.ru](mailto:i@pravets.ru)
+- Инфостарт — [статьи](https://infostart.ru/1c/articles/2740983/)
 
 ## Статистика
 
