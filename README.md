@@ -65,8 +65,10 @@
 - Telegram — [@pravets_it](https://t.me/pravets_it)
 - YouTube — [@pravets_it](https://youtube.com/@pravets_it)
 - VK — [pravets_it](https://vk.ru/pravets_it)
+- VK Видео — [@pravets_it](https://vkvideo.ru/@pravets_it)
 - Boosty — [pravets_it](https://boosty.to/pravets_it)
 - Менторство — [Getmentor](https://getmentor.dev/mentor/iosif-pravec-5993)
+- Инфостарт — [статьи](https://infostart.ru/1c/articles/2740983/)
 
 ## Статистика
 
