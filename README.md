@@ -61,9 +61,12 @@
 
 ## Контакты
 
-- Telegram — [@pravets_IT](https://t.me/+GKGRmAwghxllYzIy)
-- Почта — [i@pravets.ru](mailto:i@pravets.ru)
-- Инфостарт — [статьи](https://infostart.ru/1c/articles/2740983/)
+- Сайт — [pravets.ru](https://pravets.ru)
+- Telegram — [@pravets_it](https://t.me/pravets_it)
+- YouTube — [@pravets_it](https://youtube.com/@pravets_it)
+- VK — [pravets_it](https://vk.ru/pravets_it)
+- Boosty — [pravets_it](https://boosty.to/pravets_it)
+- Менторство — [Getmentor](https://getmentor.dev/mentor/iosif-pravec-5993)
 
 ## Статистика
 
